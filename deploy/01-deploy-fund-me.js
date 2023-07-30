@@ -1,8 +1,8 @@
-function deplyFunc() {
-    console.log("Hi!")
-}
+// function deplyFunc() {
+//     console.log("Hi!")
+// }
 
-module.exports.default = deployFunc()
+// module.exports.default = deployFunc()
 
 module.exports = async ({ getNamedAccounts, deployments }) => {
     const { deploy, log } = deployments
